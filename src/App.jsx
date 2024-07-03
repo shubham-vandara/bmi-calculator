@@ -48,7 +48,9 @@ function App() {
           <div>
             <label>Weight (Kg)</label>
             <input
+              type="number"
               value={weight}
+              min={0}
               placeholder="Enter weight in kg"
               onChange={(e) => setWeight(e.target.value)}
             />
@@ -57,7 +59,9 @@ function App() {
           <div>
             <label>Height (Cm)</label>
             <input
+              type="number"
               value={height}
+              min={0}
               placeholder="Enter height in cm"
               onChange={(e) => setHeight(e.target.value)}
             />
