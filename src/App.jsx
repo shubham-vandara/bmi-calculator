@@ -71,7 +71,7 @@ function App() {
             <button className="btn" type="submit">
               Submit
             </button>
-            <button className="btn btn-outline" type="button" onClick={reset}>
+            <button className="btn btn-reset" type="button" onClick={reset}>
               Reset
             </button>
           </div>
